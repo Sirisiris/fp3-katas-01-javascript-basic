@@ -119,7 +119,7 @@ describe("Álgebra booleana", () => {
 
 
         let a = true;
-        let b = false;
+        let b = true;
         const expression = a && b;
 
         expect(expression).toEqual(true);
@@ -127,6 +127,9 @@ describe("Álgebra booleana", () => {
 
     test("Usando el operador OR (||)", () => {
         // Escribe aquí tu código
+
+let c = false;
+let d = false;
 
         const expression = c || d;
 
@@ -141,6 +144,10 @@ describe("Operaciones con JavaScript", () => {
     test("Completa las variables que faltan para pasar los tests, ¡toca darle al coco!", () => {
         // Escribe aquí tu código
 
+let a = 6;
+let b = 5;
+let c = 2;
+
         expect(a+b).toEqual(11);
         expect(b+c).toEqual(7);
         expect(a*c).toEqual(12);
@@ -149,12 +156,21 @@ describe("Operaciones con JavaScript", () => {
     test("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
 
+        let d = 11;
+        let e = 2;
+        let f = 20;
+
         expect(d*e).toEqual(22);
         expect(e*f).toEqual(40);
     })
 
     test("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
+let a = 10;
+let b = 100;
+let c = undefined;
+let d = "Hello";
+let e = "Elena";
 
         expect(a > 9).toBe(true);
         expect(a < 11).toBe(true);
